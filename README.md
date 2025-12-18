@@ -92,5 +92,4 @@ Decision Tree delivers the best balance of recall and precision, minimizing shor
 ---
 
 ## 📘 Notebook Link | Notebook 链接
-[Seoul_Bike_Prediction.ipynb](Seoul_Bike_Prediction.ipynb)
-
+[[Seoul_Bike_Prediction.ipynb](Seoul_Bike_Prediction.ipynb)](https://github.com/25422138/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/blob/main/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/Seoul_Bike_Prediction.ipynb)

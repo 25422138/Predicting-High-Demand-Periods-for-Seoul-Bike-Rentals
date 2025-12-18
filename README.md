@@ -92,4 +92,4 @@ Decision Tree delivers the best balance of recall and precision, minimizing shor
 ---
 
 ## 📘 Notebook Link | Notebook 链接
-- [Seoul_Bike_Prediction.ipynb](./Seoul_Bike_Prediction.ipynb)
+[Seoul_Bike_Prediction.ipynb](Seoul_Bike_Prediction.ipynb)

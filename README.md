@@ -1,9 +1,6 @@
 # 🚲 Predicting High-Demand Periods for Seoul Bike Rentals
 # 🚲 首尔公共自行车高需求时段预测
 ---
-## 📘 Notebook Link | Notebook 链接
-- [Predicting High-Demand Periods for Seoul Bike Rentals.ipynb](./Predicting%20High-Demand%20Periods%20for%20Seoul%20Bike%20Rentals.ipynb)
-
 
 ## 📌 Project Background | 项目背景
 This project compares two classification models (Decision Tree and SVM) to predict high-demand periods for Seoul’s bike-sharing system. By leveraging historical temporal and environmental features, the goal is to provide early warnings for peak demand and optimize operational scheduling.
@@ -91,3 +88,8 @@ This project compares two classification models (Decision Tree and SVM) to predi
 Decision Tree delivers the best balance of recall and precision, minimizing shortages and controlling costs. It provides interpretable rules that translate directly into operational value for Seoul’s bike-sharing system.
 
 决策树模型在 Recall 与 Precision 上均表现优异，能够有效减少高需求期的车辆短缺，并控制低需求期的成本浪费。该模型为首尔公共自行车系统提供了切实可行的运营优化方案。
+
+---
+
+## 📘 Notebook Link | Notebook 链接
+- [Seoul_Bike_Prediction.ipynb](./Seoul_Bike_Prediction.ipynb)

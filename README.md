@@ -85,22 +85,6 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## 🚀 How to Run | 如何运行
-
-This project is implemented in Jupyter Notebook format. You can open and run the notebooks using:
-
-本项目使用 Jupyter Notebook 编写，可通过以下方式运行：
-
-1. Install dependencies | 安装依赖  
-   ```bash
-   pip install -r requirements.txt
-2. Launch Jupyter Notebook | 启动 Jupyter Notebook
-jupyter notebook
-3. Open and run the following notebooks | 打开并运行以下文件：
-Predicting High-Demand Periods for Seoul Bike Rentals.ipynb 
-
----
-
 ## 📄 Summary | 总结
 Decision Tree delivers the best balance of recall and precision, minimizing shortages and controlling costs. It provides interpretable rules that translate directly into operational value for Seoul’s bike-sharing system.
 

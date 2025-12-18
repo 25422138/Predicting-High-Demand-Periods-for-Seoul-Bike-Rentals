@@ -1,6 +1,6 @@
 # 🚲 Predicting High-Demand Periods for Seoul Bike Rentals
 # 🚲 首尔公共自行车高需求时段预测
-
+📘 Notebook: [Predicting High-Demand Periods for Seoul Bike Rentals.ipynb](./Predicting%20High-Demand%20Periods%20for%20Seoul%20Bike%20Rentals.ipynb)
 ---
 
 ## 📌 Project Background | 项目背景

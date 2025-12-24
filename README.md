@@ -2,26 +2,26 @@
 # 🚲 首尔公共自行车高需求时段预测
 ---
 
-## 📌 Project Background | 项目背景
+## 📌 Project Background
 This project compares two classification models (Decision Tree and SVM) to predict high-demand periods for Seoul’s bike-sharing system. By leveraging historical temporal and environmental features, the goal is to provide early warnings for peak demand and optimize operational scheduling.
 
 本项目旨在比较两种分类模型（决策树与支持向量机），预测首尔公共自行车系统的高需求时段。通过历史时间与环境特征数据，模型能够提前预警高峰需求，帮助企业优化车辆调度与补充。
 
-**Business Goals | 商业目标：**
+**Business Goals**
 - Reduce shortages during peak hours | 减少高峰期车辆短缺  
 - Control cost waste during low-demand periods | 控制低需求期的成本浪费  
 - Improve resource utilization efficiency | 提升资源利用效率与用户满意度  
 
 ---
 
-## 🛠️ Tech Stack | 技术栈
+## 🛠️ Tech Stack
 - Python: pandas, NumPy, scikit-learn  
 - Models: Decision Tree, SVM  
 - Tools: GridSearchCV, Visualization  
 
 ---
 
-## 📊 Data Preparation | 数据准备
+## 📊 Data Preparation
 - Raw Data: 8760 instances, 14 features  
 - Cleaned Data: 8465 instances, 11 features  
 - Added Time Features: Month, Day of Week, Weekend, Workday  
@@ -36,7 +36,7 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## ⚖️ Cost-Benefit Matrix | 成本-收益矩阵
+## ⚖️ Cost-Benefit Matrix
 - TP (Predict High, Actual High): Revenue ↑, User Experience ↑ (+100)  
 - FP (Predict High, Actual Low): Idle cost, Wastage (-30)  
 - FN (Predict Low, Actual High): Severe shortage, Customer loss (-80)  
@@ -46,7 +46,7 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## 🔍 Model Training & Tuning | 模型训练与调优
+## 🔍 Model Training & Tuning
 
 ### Decision Tree
 - Best Params: max_depth=5, min_samples_leaf=125, min_samples_split=300  
@@ -63,7 +63,7 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## 📈 Model Comparison | 模型对比
+## 📈 Model Comparison
 | Model | Test Recall | Advantage | Limitation |
 |-------|-------------|-----------|------------|
 | Decision Tree | 92.72% | High recall, interpretable | None |
@@ -73,7 +73,7 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## 💡 Business Outcomes | 商业价值成果
+## 💡 Business Outcomes
 - Reduce shortages: Recall ↑ to 92.72% → Coverage ↑ 20%  
 - Cut dispatch costs: Precision = 88.7% → Costs ↓ 15%  
 - Boost utilization: Interpretable rules → Usage ↑ 20%  
@@ -84,12 +84,14 @@ This project compares two classification models (Decision Tree and SVM) to predi
 
 ---
 
-## 📄 Summary | 总结
+## 📄 Summary
 Decision Tree delivers the best balance of recall and precision, minimizing shortages and controlling costs. It provides interpretable rules that translate directly into operational value for Seoul’s bike-sharing system.
 
 决策树模型在 Recall 与 Precision 上均表现优异，能够有效减少高需求期的车辆短缺，并控制低需求期的成本浪费。该模型为首尔公共自行车系统提供了切实可行的运营优化方案。
 
 ---
 
-## 📘 Notebook Link | Notebook 链接
-[[Seoul_Bike_Prediction.ipynb](Seoul_Bike_Prediction.ipynb)](https://github.com/25422138/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/blob/main/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/Seoul_Bike_Prediction.ipynb)
+## 📘 Project Files
+- Data: `SeoulBikeData.csv`
+- Notebook: [Seoul_Bike_Prediction.ipynb](https://github.com/25422138/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/blob/main/Predicting-High-Demand-Periods-for-Seoul-Bike-Rentals/Seoul_Bike_Prediction.ipynb)
+- Presentation: `Predicting High-Demand Periods for Seoul Bike Rentals.pptx`
